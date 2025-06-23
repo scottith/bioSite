@@ -1,0 +1,114 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF8F0; /* Cream White */
+    color: #333333; /* Charcoal Gray */
+}
+
+header {
+    background-color: #2E5339; /* Forest Green */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #CC5500; /* Desert Orange */
+    overflow: hidden;
+    border-bottom: 4px solid #87BFFF; /* Sky Blue */
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #87BFFF;
+    color: #2E5339; /* Forest Green */
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #2E5339;
+}
+
+h3 {
+    color: #CC5500;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.image-card {
+    text-align: center;
+    width: 30%;
+}
+
+.placeholder-box {
+    width: 100%;
+    height: 150px;
+    background-color: #ccc;
+    border: 2px dashed #999;
+    margin-bottom: 0.5em;
+}
+
+.about-layout {
+    display: flex;
+    align-items: flex-start;
+    gap: 2em;
+    margin-top: 2em;
+}
+
+.portrait-placeholder {
+    width: 200px;
+    height: 250px;
+    background-color: #ccc;
+    border: 2px dashed #999;
+}
+
+.bio-text {
+    flex: 1;
+}
+
+.hobby-gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+    padding: 1em;
+}
+
+.hobby-card {
+    text-align: center;
+    width: 30%;
+}
+
+.placeholder-box {
+    width: 100%;
+    height: 150px;
+    background-color: #ccc;
+    border: 2px dashed #999;
+    margin-bottom: 0.5em;
+}
+
+footer {
+    background-color: #2E5339;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
